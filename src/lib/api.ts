@@ -1,5 +1,5 @@
 // const BASE_URL = "http://localhost:5000/api";
-const BASE_URL = "https://hr-backend-xi.vercel.app/api";
+export const BASE_URL = "https://hr-backend-ashy.vercel.app/api";
 
 export async function apiFetch(endpoint: string, options: RequestInit = {}) {
   const token = localStorage.getItem("perfy_employee_token");
